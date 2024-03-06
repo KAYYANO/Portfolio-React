@@ -9,10 +9,10 @@ function Contact() {
         <div className={styles.contact_con}>
             <div className={styles.contact_info}>
                 <h3>Get in touch</h3>
-                <p><img src="/src/components/png/placeholder.png" alt="" />Phayao, Mae Ka</p>
-                <p><img src="/src/components/png/phone-call.png" alt="" /> 080 000 0000</p>
-                <p><img src="/src/components/png/mail.png" alt="" /> kayasitkaanma@gmail.com</p>
-                
+                <p><img src="https://img2.pic.in.th/pic/placeholder.png" alt="" />Phayao, Mae Ka</p>
+                <p><img src="https://img5.pic.in.th/file/secure-sv1/phone-callcd7d5f58b9f569d3.png" alt="" /> 080 000 0000</p>
+                <p><img src="https://img2.pic.in.th/pic/mail.png" alt="" /> kayasitkaanma@gmail.com</p>
+
             </div>
             <div className={styles.contact_form}>
                 <form action="">

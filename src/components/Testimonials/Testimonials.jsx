@@ -48,7 +48,7 @@ function Testimonials() {
           </p>
           <Tilt scale={1.2} transitionSpeed={2500} tiltReverse={true}>
             <img
-              src="/src/components/png/claude.jpg"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEW-i3a5ASOQ_KzsNVyoppgsQsfEUxL2FV2Q"
               alt=""
             />
           </Tilt>

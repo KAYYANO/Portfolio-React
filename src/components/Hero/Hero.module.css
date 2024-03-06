@@ -1,0 +1,57 @@
+.hero_wrapper {
+    height: 500px;
+    overflow: hidden;
+  
+    & .container {
+      max-width: 1170px;
+      margin: 0 auto;
+  
+      & .hero_content {
+        display: flex;
+        justify-content: space-between;
+  
+        & .text_1 {
+          font-size: 36px;
+          margin-top: 105%;
+          font-family: "Courier Prime", monospace;
+          font-weight: 400;
+          font-style: normal;
+        }
+        & .text_2 {
+          font-size: 16px;
+          margin-top: auto;
+          font-family: "Courier Prime", monospace;
+        }
+        
+          & .hero_image {
+              width: 300px;
+              height: 300px;
+              border-radius: 100%;
+              background-image: url('https://i.pinimg.com/564x/1c/65/be/1c65be64e82dcc6bd4c242aeca88e1b4.jpg');
+              background-size: cover;
+              background-position: center;
+              margin-right: 120px;
+              margin-top: 24%;
+          }
+      }
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .hero_wrapper {
+      height: auto;
+  
+      & .hero_content {
+        flex-direction: column;
+        margin: 50px 0;
+        padding: 20px;
+  
+        & .hero_info, & .hero_image {
+          width: 100%;
+        }
+  
+      }
+  
+     
+    }
+  }
